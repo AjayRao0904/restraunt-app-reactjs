@@ -1,0 +1,21 @@
+<body>
+    <div id = "root"> </div>
+    <script type = "text/babel">
+     class Hello extends React.Component {
+    constructor(props) {
+    super(props)
+    this.state = {name:"sindhu",address:"nagarbavi",phno:"9876554" }
+    //this.updatestate = this.updatestate.bind(this) // if the function has no =>
+    }
+    render(){
+    return (<div><h1>hello {this.state.name}</h1>
+    <p> u r from {this.state.address} and ua contact number is
+    {this.state.phno}</p>
+    <button onClick = {this.updatestate}>click here to change state</button>
+    </div> )
+    }
+    updatestate =()=> {
+    this.setState({name:"pai"}) }
+     }
+     ReactDOM.render(<Hello/>, document.getElementById("root"))
+</script> </body>

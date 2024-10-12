@@ -1,0 +1,29 @@
+.menu-item {
+    page-break-inside: avoid;
+    padding: 0 1em 1em;
+  }
+.menu-items {
+    margin: 5rem auto;
+    column-count: 2;
+    column-gap: 20px;
+    padding: 0 5rem;
+}
+.menu_h1 {
+    color: black;
+    font-size: 70pt;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.containerm {
+    background-image: url(../../public/assets/chickenParmesan.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center -190px;
+    max-width: 1024px;
+    background-color: #fff;
+    margin: 7rem auto;
+    border: solid #ffaf31 5px;
+    border-radius: 15px;
+    padding: 0 15px;
+  }

@@ -1,0 +1,59 @@
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.navbar {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  width: 100%;
+  background-color: rgb(196, 184, 167, 0.9);
+  border: 2px solid #ccc;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+}
+
+.navbar_ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+}
+
+.navbar_ul li {
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: rgba(196, 184, 167, 0.803);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.navbar_ul a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar_ul a:hover {
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.navbar_order-reservation a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar_order-reservation a:hover {
+  color: black;
+  border-bottom: 1px solid black;
+}
